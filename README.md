@@ -1,6 +1,6 @@
 # Siguiente Elemento Mayor
 
-A. Estructuras de datos utilizadas en el algoritmo
+# A. Estructuras de datos utilizadas en el algoritmo
 
 Se utiliza un Deque ya que se necesita sus operaciones LIFO (Last In, First Out) para poder llevar a cabo el algoritmo. En esta Deque se van persistiendo los elementos
 ya recorridos/visitados del input array y se los compara con el elemento actual a evaluar, para decidir si aplica SEM o no.
@@ -8,7 +8,7 @@ ya recorridos/visitados del input array y se los compara con el elemento actual 
 
 Además, se utiliza un array auxiliar para guardar los SEM de cada valor del input array al ir recorriéndolo. Este array luego se imprimirá junto al array input.
 
-B. Complejidad temporal del algoritmo
+# B. Complejidad temporal del algoritmo
 
 El algoritmo presenta una complejidad temporal de O(n), ya que recorre todo el input array una sola vez. Si bien luego lo recorre para imprimirlo, no son for anidados,
 por lo que la complejidad se mantiene en n (Sería 2n, que es n).
